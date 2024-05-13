@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href=" https://fonts.google.com/share?selection.family=Poetsen+One;">
+</head>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            background-image: url('beach.jpg');
+            background-position: center;
+            background-size: cover;
+            padding-left: 8%;
+            padding-right: 8%;
+            box-sizing: border-box;
+
+        }
+        .logo img{
+        width: 100px;
+        height: auto;
+        position: absolute;
+        left: 20px;
+        top: 4%;
+        }
+        .navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo{ 
+  width: 90px;
+  cursor: pointer;
+  color: #a2cdde;
+  
+}
+.menu-icon{
+  width: 40px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+nav{
+  flex: 2;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 75 px;
+  font-weight: bold;
+  font-family: Sans-Serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+.navbar ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.navbar ul li.active a{
+         background-color: black;
+             color: white;
+}
+.card{
+ 
+ width: 300px;
+ height: 200px;
+ display: inline-block;
+ padding-top: 150px;
+ border-radius: 10px;
+ padding: 15px 25px;
+ box-sizing: border-box;
+ cursor: pointer;
+ margin: 10px 15px;
+ background-position: center;
+ background-size: cover;
+ transition: transform 0.5s;
+
+ 
+}
+.card1{
+ background-image: url(7.jpg);
+}
+.card2{
+ background-image: url(8.jpg);
+}
+.card3{
+ background-image: url(9.jpg);
+}
+.card4{
+ background-image: url(10.jpg);
+}
+.card5{
+   background-image: url(11.jpg);
+}
+.card6{
+   background-image: url(12.JPG);
+}
+
+.card:hover{
+ transform: translateY(-10px);
+}
+.col h5{
+   color: white;
+}
+.food{
+text-align: center;
+color: white;
+text-shadow: 3px;
+font-size: 35px;
+}
+   </style>
+   
+   <div class="container">
+       <div class="navbar">
+           <br>
+           <dir class="logo">
+               <img src="logo.png" >
+           </dir>
+           <div class="food">
+            <h1>FOODS</h1>
+           </div>
+     
+        <nav>
+          <ul>
+            <li><a class="active" href="histo.html">HISTORY</a></li>
+            <li><a href="places.html">PLACE</a></li>
+            <li><a href="foods.html">FOODS</a></li>
+            <li><a href="index.html">HOME</a></li>
+          </ul>
+        </nav>
+        <img src= "menu2.png" class="menu-icon">
+     </div>
+     <div class="col">
+       <div class="card card1">
+        <a href="food7.html"> 
+           <h5>Satti</h5>
+        </a>
+       </div>
+       <div class="card card2">
+         <a href="curacha.html">
+          <h5>Tausug Foods</h5>
+         </a>
+ 
+       </div>
+       <div class="card card3">
+         <a href="curucha2.html">
+          <h5>Curacha</h5>
+         </a>
+    
+       </div>
+       <div class="card card4">
+         <a href="migo.html">
+          <h5>Mi Goreeng</h5>
+         </a>
+
+       </div> 
+       <div class="card card5">
+          <a href="niker.html">
+            <h5>Knicker Backer</h5>
+  
+          </a>
+         </div> 
+         <div class="card card6">
+          <a href="pastil.html">
+            <h5>Pastil</h5>
+          </a>
+  
+         </div> 
+     </div>
+      
+
+</body>
+</html>
